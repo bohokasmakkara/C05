@@ -9,3 +9,11 @@ int	ft_fibonacci(int index)
 	else
 		return (ft_fibonacci(index - 1) + ft_fibonacci(index -2));
 }
+#include <stdio.h>
+int main(void)
+{
+    int n = 10;  // You can change this to any non-negative integer
+    printf("Fibonacci element at index %d: %d\n", n, ft_fibonacci(n));
+
+    return 0;
+}
