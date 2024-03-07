@@ -17,6 +17,8 @@ int	ft_iterative_power(int nb, int power)
 int main(void)
 {
     int nb = 5;
-    printf("ft_iterative_factorial(%d) = %d\n", nb, ft_iterative_factorial(nb));
+    int power = 3;
+
+    printf("%d\n", ft_iterative_power(nb, power));
     return 0;
 }
