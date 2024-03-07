@@ -10,3 +10,9 @@ int	ft_recursive_factorial(int nb)
 	else
 		return (nb * ft_recursive_factorial(nb - 1));
 }
+int main(void)
+{
+    int nb = 5;
+    printf("ft_recursive_factorial(%d) = %d\n", nb, ft_recursive_factorial(nb));
+    return 0;
+}
