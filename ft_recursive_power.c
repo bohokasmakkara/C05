@@ -16,3 +16,11 @@ int	ft_recursive_power(int nb, int power)
 	}
 	return (result);
 }
+int main()
+{
+    int nb = 5;
+    int power = 3;
+
+    printf("%d\n", ft_recursive_power(nb, power));
+    return 0;
+}
